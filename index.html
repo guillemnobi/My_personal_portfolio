@@ -47,8 +47,8 @@
 
       <nav class="nav-menu d-none d-lg-block">
         <ul>
+          <li class="active"><a href="#introduction">About</a></li>
           <li class="active"><a href="#portfolio">Portfolio</a></li>
-          <li><a href=#>About</a></li>
           <li><a href=#>Something Else</a></li>
         </ul>
       </nav><!-- .nav-menu -->
@@ -72,19 +72,19 @@
       <a href=https://github.com/guillemnobi class="btn-about">GITHUB</a>
     </div>
   </section>
-  <section>
-    <div>
-      <h1>web developer portfolio</h1>
-      <h3>From Web Components and UI/UX animations to React.JS, Redux, Vue.JS, and Node.JS. Check out my latest web software development portfolio projects.</h3>
+  <section class="sectionportfolio">
+    <div id="introduction">
+      <p>What about me</p>
+      <p2>Raised in Barcelona I studied and worked in Finance and Financtial analysis for more than 10 years. Since a time ago I became a full stack developer after studing the Full Stack Developer BOOTCAMP in Altcadmey. Now I'm just looking forward to keep leraning and improving my skills in coding.  </p2>
       <div class="filters hidden">
         <ul>
           <li class="active" title="Show All Projects">
             <span>Show All</span>
-          </li><li title="Filter by FRONT-END"><span>FRONT-END</span></li><li title="Filter by BACK-END"><span>BACK-END</span></li><li title="Filter by HTML5"><span>HTML5</span></li><li title="Filter by SASS"><span>SASS</span></li><li title="Filter by LESS"><span>LESS</span></li><li title="Filter by JAVASCRIPT"><span>JAVASCRIPT</span></li><li title="Filter by NODEJS"><span>NODEJS</span></li><li title="Filter by ELECTRON"><span>ELECTRON</span></li><li title="Filter by REACTJS"><span>REACTJS</span></li><li title="Filter by METEOR"><span>METEOR</span></li><li title="Filter by COFFEESCRIPT"><span>COFFEESCRIPT</span></li><li title="Filter by MONGODB"><span>MONGODB</span></li><li title="Filter by MYSQL"><span>MYSQL</span></li><li title="Filter by BACKBONEJS"><span>BACKBONEJS</span></li><li title="Filter by UI/UX DESIGN"><span>UI/UX DESIGN</span></li><li title="Filter by ANIMATIONS"><span>ANIMATIONS</span></li><li title="Filter by GAME DESIGN"><span>GAME DESIGN</span></li>
+          </li><li title="Filter by FRONT-END"><span>FRONT-END</span></li><li title="Filter by BACK-END"><span>BACK-END</span></li><li title="Filter by HTML5"><span>HTML5</span></li><li title="Filter by JAVASCRIPT"><span>JAVASCRIPT</span></li><li title="Filter by NODEJS"><span>NODEJS</span></li><li title="Filter by REACTJS"><span>REACTJS</span></li><li title="Filter by MYSQL"><span>MYSQL</span></li><li title="Filter by UI/UX DESIGN"><span>UI/UX DESIGN</span></li>
         </ul>
         <small>Showing all projects. Use the filter to list them by skill or technology.</small>
-        </div>
       </div>
+    </div>
 
 
 
@@ -102,31 +102,29 @@
 
 
 
-    <div id="portfolio" class="container-fluid">
-      <p class="text-center header">My Portfolios</p>
+    <div id="portfolio">
+      <h5 class="text-center header">My Portfolios</h5>
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="row segundafila">
+        <div class="col-xs-12 col-md-6">
+          <div class="row assignements">
             <div class="col-12">
             <img src="assets/img/portfolio/apple.jpg">
             </div>
-            <div class="col-12">
-            <h2 class="category-main"></h2>
-              <a href="#">Assignement 1</a>
-            <h2 class="story">
-              <a href="#">Practicing and becoming familiar with HTML and CSS</a></h2>
+            <div class="container col-12">
+              <div class="category-main">Assignement 1</div>
+              <div class="story">Practicing and becoming familiar with HTML and CSS</div>
               <div class="summary">
-                Something else to say
+              Created on 
               </div>
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="row image">
+        <div class="col-xs-12 col-md-6">
+          <div class="row assignements">
             <div class="col-12">
               <img src="assets/img/portfolio/newsweek.jpg">
             </div>
-            <div class="col-12">
+            <div class="container col-12">
               <a href="#">Assignement 2</a>
             <h2 class="story">
               <a href="#">Entering BOOSTRAP world by cloning a Newsweek</a></h2>
@@ -136,11 +134,11 @@
             </div>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="row image">
+        <div class="col-xs-12 col-md-6">
+          <div class="row assignements">
             <div class="col-12">
               <img src="assets/img/portfolio/airbnv.jpg">
-            </div>          
+            </div>      
             <div class="col-12">
               <a href="#">Assignement 3</a>
             <h2 class="story">
@@ -151,26 +149,25 @@
             </div>
           </div>
         </div>
-      </div>
-  
-      
-  
-      <div class="row">
-        <div class="col-12">
-          <div class="image">
-          <img src="assets/img/portfolio/oncoming.jpg">
-          </div>
-          <div class="sub-info">
-            <h2 class="category-main"></h2>
-              <a href="#">Upcoming Assignements...</a>
+        <div class="col-xs-12 col-md-6">
+          <div class="row assignements">
+            <div class="col-12">
+              <img src="assets/img/portfolio/oncoming.jpg">
+            </div>
+            <div class="col-12">
+            <a href="#">Upcoming Assignements</a>
             <h2 class="story">
-              <a href="#">The next Assignements coming soon</a></h2>
+            <a href="#">Next Assignements coming soon</a></h2>
             <div class="summary">
               Something else to say
             </div>
+            </div>           
           </div>
-        </div>            
+        </div>
       </div>
+
+          
+
     </div>
   
   </section><!-- End Hero -->
